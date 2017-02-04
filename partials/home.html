@@ -1,0 +1,12 @@
+<section class="page-section relative">
+    <flex-slider flex-slide="s in sliders track by $index" animationLoop='true'>
+        <li style="background-image: url({{s.url}})">
+            <div class="slider-overlay"></div>
+        </li>
+    </flex-slider>
+
+    <div class="btn-wrapper">
+        <a href="#/shop" class="btn-theme btn-home">Shop Now</a>
+    </div>
+</section>
+
